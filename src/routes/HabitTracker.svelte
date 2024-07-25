@@ -101,6 +101,12 @@
     align-items: center;
     gap: 1rem;
     padding: 0.5rem 3rch;
+
+    @media print {
+      & button {
+        visibility: hidden;
+      }
+    }
   }
 
   input[type="text"] {
