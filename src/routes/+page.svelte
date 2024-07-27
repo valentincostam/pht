@@ -27,7 +27,7 @@
 		<input
 			id="date"
 			type="date"
-			class="flex-grow border border-black px-3 py-1 shadow-[inset_2px_2px_0_0_black]"
+			class="flex-grow rounded-none border border-black bg-white px-3 py-1 shadow-[inset_2px_2px_0_0_black]"
 			bind:value={chosenDate}
 		/>
 	</label>
